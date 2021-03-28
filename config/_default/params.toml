@@ -1,0 +1,58 @@
+# Meta Data for SEO
+
+## Homepage
+title = "glab"
+titleSeparator = "-"
+titleAddition = "GitLab command line tool"
+description = "GLab is an open source GitLab CLI tool bringing GitLab to your terminal next to where you are already working with git and your code without switching between windows and browser tabs."
+
+## Open Graph + Twitter Cards
+images = ["doks.png"]
+twitterSite = "clems_dev"
+twitterCreator = "clems_dev"
+facebookAuthor = "profclem"
+facebookPublisher = "profclem"
+ogLocale = "en_US"
+
+## JSON-LD
+schemaType = "Organization"
+schemaLogo = "logo-doks.png"
+schemaTwitter = "https://twitter.com/clems_dev"
+schemaLinkedIn = "https://www.linkedin.com/in/clementsam75/"
+schemaGitHub = "https://github.com/profclems"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+
+# Footer
+footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+
+# Alert
+alert = true
+alertText = "Like glab? <a class=\"alert-link\" href=\"https://github.com/profclems/glab/stargazers\">Star on GitHub</a>. Thanks!</a>"
+
+# Edit Page
+docsRepo = "https://github.com/profclems/glab-docs"
+editPage = true
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = false
+  breadCrumb = false
+  highLight = true
+  kaTex = true
